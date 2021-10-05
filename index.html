@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Frontend mentor | [Blogr]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body>
+  <header class="barra">
+    <figure class="logo">
+      <img src="./images/logo.svg" alt="logo barra blog" />
+    </figure>
+    <nav class="menu" id="nav-menu">
+      <ul class="menu_lista">
+        <li class="menu_lista_items">
+          <a tabindex="0">Product</a>
+          <ul class="menu_2_lista">
+            <li class="menu_2_lista-items">
+              <a class="menu_2_lista-items-link" href=""
+                >Product-01</a
+              >
+            </li>
+            <li class="menu_2_lista-items">
+              <a class="menu_2_lista-items-link" href=""
+                >Product-02</a
+              >
+            </li>
+            <li class="menu_2_lista-items">
+              <a class="menu_2_lista-items-link" href=""
+                >Product-03</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="menu_lista_items">
+          <a tabindex="0">Company</a>
+          <ul class="menu_2_lista">
+            <li class="menu_2_lista-items">
+              <a class="menu_2_lista-items-link" href=""
+                >Company-01</a
+              >
+            </li>
+            <li class="menu_2_lista-items">
+              <a class="menu_2_lista-items-link" href=""
+                >Company-02</a
+              >
+            </li>
+            <li class="menu_2_lista-items">
+              <a class="menu_2_lista-items-link" href=""
+                >Company-03</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="menu_lista_items">
+          <a tabindex="0">Connect</a>
+          <ul class="menu_2_lista">
+            <li class="menu_2_lista-items">
+              <a class="menu_2_lista-items-link" href="">Contact</a>
+            </li>
+            <li class="menu_2_lista-items">
+              <a class="menu_2_lista-items-link" href=""
+                >Newsletter</a
+              >
+            </li>
+            <li class="menu_2_lista-items">
+              <a class="menu_2_lista-items-link" href="">Linkedin</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="acceso">
+        <span class="acceso_login"><a href="">Login</a></span>
+        <button class="acceso_signup_btn">
+          <a href="">Sign Up</a>
+        </button>
+      </div>
+    </nav>
+    <button class="btn" id="btn-burger">
+      <div class="btn_container">
+        <span class="btn_line"></span>
+      </div>
+    </button>
+  </header>
+  <!------------------------------------------------------------------------------->
+  <main class="main">
+    <section class="main_cover">
+      <div class="main_cover_container">
+        <div class="main_cover_details">
+          <h1 class="main_cover_details-tittle">
+            A modern publishing platform
+          </h1>
+          <p class="main_cover_details-text">
+            Grow your audience and build your online brenad
+          </p>
+        </div>
+        <div class="main_cover_cta">
+          <button class="main_cover_cta-btn">
+            <a class="main_cover_cta-btn-link-a" href="">Start for free</a>
+          </button>
+          <button class="main_cover_cta-btn">
+            <a class="main_cover_cta-btn-link" href="">Learn more</a>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="main_future">
+      <h2 class="main-future_tittle">Designed for the future</h2>
+      <div class="main_future_grid">
+        <figure class="main_future_img">
+          <img src="./images/illustration-editor-mobile.svg" alt="" />
+        </figure>
+        <div class="main_future_container">
+          <div class="main_future_text">
+            <h3 class="main_future_text-tittle">
+              Introducing an extensible editor
+            </h3>
+            <p class="main_future_text-details">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestias
+              minima neque cumque, fuga modi reprehenderit nesciunt perspiciatis itaque
+              eaque deserunt odio unde a iste molestiae deleniti quas nostrum ab?
+            </p>
+          </div>
+          <div class="main_future_text">
+            <h3 class="main_future_text-tittle">Robust content management</h3>
+            <p class="main_future_text-details">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestias
+              minima neque cumque, fuga modi reprehenderit nesciunt perspiciatis itaque
+              eaque deserunt odio unde a iste molestiae deleniti quas nostrum ab?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main_art">
+      <div class="main_art_container">
+        <figure class="main_art_img">
+          <img src="./images/illustration-phones.svg" alt="" />
+        </figure>
+        <div class="main_art_details">
+          <h3 class="main_art_details-tittle">
+            State of the art infrastructure
+          </h3>
+          <p class="main_art_details-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, illum nam
+            quod repudiandae reiciendis sunt eaque repellat, officiis eos at, vitae
+            dignissimos blanditiis temporibus perferendis. Eos minima sed maiores error?
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="main_simple">
+      <div class="main_simple_grid">
+        <figure class="main_simple_img">
+          <img src="./images/illustration-laptop-mobile.svg" alt="" />
+        </figure>
+        <div class="main_simple_container">
+          <div class="main_simple_text">
+            <h3 class="main_simple_text-tittle">
+              Free, open, simple
+            </h3>
+            <p class="main_simple_text-details">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestias
+              minima neque cumque, fuga modi reprehenderit nesciunt perspiciatis itaque
+              eaque deserunt odio unde a iste molestiae deleniti quas nostrum ab?
+            </p>
+          </div>
+          <div class="main_simple_text">
+            <h3 class="main_simple_text-tittle">
+              Powerful tooling
+            </h3>
+            <p class="main_simple_text-details">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestias
+              minima neque cumque, fuga modi reprehenderit nesciunt perspiciatis itaque
+              eaque deserunt odio unde a iste molestiae deleniti quas nostrum ab?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!------------------------------------------------------------------------------------------>
+  <footer class="main_footer">
+    <section class="main_footer_container">
+      <div class="main_footer_logo">
+        <figure><img src="./images/logo.svg" alt="Logo" /></figure>
+      </div>
+      <div class="main_footer_box">
+        <ul class="main_footer_menu">
+          <span>Product</span>
+          <li class="main_footer_menu-items">
+            <a class="main_footer_menu-items-link" href="">Overview</a>
+          </li>
+          <li class="main_footer_menu-items">
+            <a class="main_footer_menu-items-link" href="">Pricing</a>
+          </li>
+          <li class="main_footer_menu-items">
+            <a class="main_footer_menu-items-link" href="">Marketplace</a>
+          </li>
+          <li class="main_footer_menu-items">
+            <a class="main_footer_menu-items-link" href="">Features</a>
+          </li>
+          <li class="main_footer_menu-items">
+            <a class="main_footer_menu-items-link" href="">Integrations</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main_footer_box">
+        <ul class="main_footer_menu">
+          <span>Company</span>
+          <li class="main_footer_menu-items">
+            <a class="main_footer_menu-items-link" href="">About</a>
+          </li>
+          <li class="main_footer_menu-items">
+            <a class="main_footer_menu-items-link" href="">Team</a>
+          </li>
+          <li class="main_footer_menu-items">
+            <a class="main_footer_menu-items-link" href="">Blog</a>
+          </li>
+          <li class="main_footer_menu-items">
+            <a class="main_footer_menu-items-link" href="">Careers</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main_footer_box">
+        <ul class="main_footer_menu">
+          <span>Connect</span>
+          <li class="main_footer_menu-items">
+            <a class="main_footer_menu-items-link" href="">Contact</a>
+          </li>
+          <li class="main_footer_menu-items">
+            <a class="main_footer_menu-items-link" href="">Newsletter</a>
+          </li>
+          <li class="main_footer_menu-items">
+            <a class="main_footer_menu-items-link" href="">Linkedin</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="attribution">
+      <div class="attribution-box">
+        <span>Challenge by -</span>
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >
+      </div>
+      <div class="attribution-box">
+        <span>Coded by -</span>
+        <a href="https://github.com/DanSM12034">Daniel Serna Muriel</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendbarra.io?ref=challenge" target="_blank">Frontend mentor</a>. 
+    Coded by <a href="#">Daniel Serna Muriel</a>.
+  </div>
+</body>
+</html>
